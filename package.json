@@ -1,0 +1,38 @@
+{
+  "name": "admin-panel",
+  "version": "1.0.0",
+  "description": "Admin Panel built with Node.js, Express.js, EJS, and MongoDB",
+  "keywords": [
+    "admin-panel",
+    "nodejs",
+    "expressjs",
+    "ejs",
+    "mongodb",
+    "bootstrap",
+    "dashboard",
+    "crud",
+    "authentication"
+  ],
+  "homepage": "https://github.com/Meetpatel0264/Admin-Panel-Node#readme",
+  "bugs": {
+    "url": "https://github.com/Meetpatel0264/Admin-Panel-Node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meetpatel0264/Admin-Panel-Node.git"
+  },
+  "license": "ISC",
+  "author": "Meet Patel <https://github.com/Meetpatel0264>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.1",
+    "multer": "^2.2.0"
+  }
+}
