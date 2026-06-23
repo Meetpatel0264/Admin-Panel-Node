@@ -11,6 +11,11 @@ app.set("view engine", "ejs");
 
 app.use("/", require("./routes/index"));
 
-app.listen(PORT, () => {
-    console.log(`Server Running http://localhost:${PORT}`);
+app.listen(PORT, (err) => {
+    
+    if(!err){
+        console.log(`Server Running http://localhost:${PORT}`);
+    } else{
+        console.log(`error =======> `, err);
+    }
 });
